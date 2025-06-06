@@ -6,17 +6,11 @@ permalink: /about/
 
 <img src="/assets/images/about/tarlan_ziyadov.jpg" alt="Avatar" style="width:45%;  border-radius:25%;">
 
-I am QA engineer with passion for test automation but as hobby I develop softwares for test and blog about testing 📒
+**QA Engineer** specializing in **test automation** with a strong passion for building custom tools and sharing insights through technical blogging.
 
-## Professional strengths I offer to employers
-
-- SDET
-- E2E frameworks from scratch
-- Integrations to monitor tests
-- Automated reports to stakeholders slack/teams
-- Data driven E2E tests
-- CI/CD Kubernetes
-- k6 io (Load tests)
-- Argo
-
-#### _Do not hesitate to reach out via email or LinkedIn direct message to discuss how we might collaborate._
+- 🧩 Experienced in designing **E2E automation frameworks** from scratch
+- 🔍 Integrated **monitoring solutions** to track test health and trends
+- 📤 Automated test reports for stakeholders via **Slack** and **Microsoft Teams**
+- 🧪 Implemented **data-driven testing strategies**
+- 🔧 Skilled in **CI/CD pipelines**, **Kubernetes**, and **performance testing with k6**
+- 🛠️ Enthusiast developer of utility software to support and accelerate testing workflows

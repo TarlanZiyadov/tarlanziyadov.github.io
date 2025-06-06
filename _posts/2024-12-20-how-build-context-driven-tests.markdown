@@ -5,7 +5,7 @@ date: 2024-12-20 23:45:40 +0200
 categories: QA
 ---
 
-![Build context driven tests](/assets/images/build_context_driven_tests/build_context_driven_tests.jpg)
+![Build context driven tests](/assets/images/articles/build_context_driven_tests/build_context_driven_tests.jpg)
 
 ## **Why context driven end-to-end tests?**
 
@@ -25,7 +25,7 @@ We can as well run our contexts parallel with [cypress-parallel](https://www.npm
 
 First we need to define our folder structure since it is very important part of the project. Take a look to the screenshot:
 
-![Folder structure](/assets/images/build_context_driven_tests/folder_structure.png)
+![Folder structure](/assets/images/articles/build_context_driven_tests/folder_structure.png)
 
 Here we have contexts folder which will contain our contexts for different flows and under tests folder we have the actual tests.
 
@@ -144,11 +144,11 @@ describe("Verify article", () => {
 
 As you can see we have context as 'Test' but you can name it as you want. We pass the values to our test and this is the file that Cypress will run.
 
-![Cypress spec contexts](/assets/images/build_context_driven_tests/cypress_spec_contexts.png)
+![Cypress spec contexts](/assets/images/articles/build_context_driven_tests/cypress_spec_contexts.png)
 
 And here we have the result:
 
-![Context run articles](/assets/images/build_context_driven_tests/context_run_articles.png)
+![Context run articles](/assets/images/articles/build_context_driven_tests/context_run_articles.png)
 
 ---
 
@@ -171,7 +171,7 @@ describe("Verify software", () => {
 
 And the result:
 
-![Context run softwares](/assets/images/build_context_driven_tests/context_run_softwares.png)
+![Context run softwares](/assets/images/articles/build_context_driven_tests/context_run_softwares.png)
 
 ---
 

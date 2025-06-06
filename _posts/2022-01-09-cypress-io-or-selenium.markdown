@@ -5,28 +5,36 @@ date: 2022-01-09 23:45:40 +0200
 categories: QA
 ---
 
-![Cypress io or selenium](/assets/images/cypress_io_or_selenium/cypress_io_or_selenium.jpg)
+![Cypress io or selenium](/assets/images/articles/cypress_io_or_selenium/cypress_io_or_selenium.jpg)
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## **Which Tool Should You Choose for Test Automation?**
 
-Jekyll requires blog post files to be named according to the following format:
+I want to share my experience working with tools for test automation. For a long time, Selenium WebDriver—commonly known as Selenium—was the go-to solution. Selenium gained popularity because it supports multiple programming languages, making it a great choice for many teams. Whether your team uses Java, C#, Ruby, Python, JavaScript, or others, Selenium has you covered.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+My personal experience with Selenium involved building a test automation framework using C#. The result was excellent—I had full control over the framework because I used a strong object-oriented programming approach. This allowed me to follow patterns like **TRIMS**, which helped create smaller, more maintainable, and reliable test cases.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Was it hard to build? That depends on your programming skills. Having strong coding skills in the language you choose is crucial; otherwise, you risk ending up with an unmaintainable framework in the future. Over time, you might also need to use APIs to generate test data, which helps reduce manual test data maintenance.
 
-Jekyll also offers powerful support for code snippets:
+In short, to build a high-quality automation framework with Selenium, you need to be a developer who prioritizes quality—not just a tester with some programming knowledge.
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+---
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## **But What About Cypress.io?**
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Cypress was released in 2014 and has been gaining popularity ever since. But why? The answer is simple: you don’t need to be a developer—just a tester with programming skills.
+
+Cypress uses JavaScript, which is easy to learn. It’s also a ready-to-use software (still actively maintained and developed when this article posted), so you just download it and start using it.
+
+Besides that, Cypress has excellent documentation that covers almost everything you need to know to start automating your tests. There’s also a vibrant community that develops various modules to make automation even easier.
+
+So, no need to be an expert developer—just follow the documentation and some tutorials, and you’re good to go.
+
+From my experience, Cypress is easy to build, maintain, and execute tests with. Since I enjoy object-oriented programming, I appreciate that Cypress allows you to create your own JavaScript modules and reuse them across different tests.
+
+I also prefer building data-driven automation, and Cypress supports that without any issues.
+
+---
+
+## **So What Do I Prefer: Cypress.io or Selenium WebDriver?**
+
+Actually, it doesn’t matter much since they both do the same job: automate my tests.

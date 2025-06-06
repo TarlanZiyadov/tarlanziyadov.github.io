@@ -5,7 +5,7 @@ date: 2020-12-21 23:45:40 +0200
 categories: QA
 ---
 
-![What is test automation](/assets/images/what_is_test_automation/what_is_test_automation.jpg)
+![What is test automation](/assets/images/articles/what_is_test_automation/what_is_test_automation.jpg)
 
 ## **What Does "Test" Mean?**
 

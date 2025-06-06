@@ -5,28 +5,49 @@ date: 2021-12-11 23:45:40 +0200
 categories: QA
 ---
 
-![Test automation layers](/assets/images/test_automation_layers/test_automation_layers.jpg)
+![Test automation layers](/assets/images/articles/test_automation_layers/test_automation_layers.jpg)
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+> Automation of tests can be very helpful **only if** you choose the right implementation techniques **and** the right tools.
+>
+> When should you start building and integrating automation tests?  
+> If developers want to ensure quality in the product code, **unit tests** are a crucial layer in the development process.  
+> They help catch issues early and serve as a solid foundation before moving on to integration or end-to-end tests.
 
-Jekyll requires blog post files to be named according to the following format:
+## **Unit Tests**
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Unit tests are mainly written by developers at the same time they write the production code. The main focus of these tests is to verify that the production code handles issues correctly and returns the expected values.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Overall, unit tests check if the code maintains good quality. They work by sending input data to methods and asserting the output values returned.
 
-Jekyll also offers powerful support for code snippets:
+## **Integration Tests (API Tests)**
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Integration tests, also known as API tests, are developed by both developers and testers, though it’s less common for testers to write them due to the required strong backend knowledge.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+API tests operate by sending requests to endpoints and verifying the response data.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+In some cases, it’s very helpful to include API tests as part of UI automation, especially when test data is needed for UI tests.
+
+I will share examples of this approach in future articles.
+
+---
+
+## **UI Automation Test**
+
+UI automation tests are the last layer of automation. These tests are often developed by testers with programming skills.
+
+### Purpose of UI Automation Tests
+
+- To check the final product through the UI.
+- Verify that all integrations work correctly.
+- Ensure that user interactions, such as order flows, behave as expected.
+
+### Main Focus
+
+- Save time on regression testing.
+- Every time a new feature is deployed to the test environment, testers need to verify if the changes negatively impact existing functionalities.
+- Manual testing of different UI flows can be time-consuming.
+
+### Benefits of UI Automation
+
+- Automate repetitive checks after every deployment.
+- Allow testers to focus more on exploratory testing and manual testing of new features.

@@ -5,7 +5,7 @@ date: 2022-06-12 23:45:40 +0200
 categories: Development
 ---
 
-![What is site map](/assets/images/what_is_sitemap/what_is_sitemap.jpg)
+![What is site map](/assets/images/articles/what_is_sitemap/what_is_sitemap.jpg)
 
 ## **What is Sitemap?**
 
@@ -132,15 +132,15 @@ _So whats next?_ Now we will take a short look on how **Google search engine** w
 
 First you need to have an google account and login to the [Google Search Console](https://search.google.com/search-console). Then you need to add resource which is your website as shown in the screenshot down below.
 
-![Google console search](/assets/images/what_is_sitemap/google_console_search.png)
+![Google console search](/assets/images/articles/what_is_sitemap/google_console_search.png)
 
 When you added your website and followed steps then you should have menu items on the left side as down below.
 
-![Google console meny](/assets/images/what_is_sitemap/google_console_meny.png)
+![Google console meny](/assets/images/articles/what_is_sitemap/google_console_meny.png)
 
 Here we choose Sitemaps and then you will see the view where you can enter sitemap url.
 
-![Google console sitemap](/assets/images/what_is_sitemap/google_console_sitemaps.png)
+![Google console sitemap](/assets/images/articles/what_is_sitemap/google_console_sitemaps.png)
 
 So now when you saved your **XML** file and have the **URL** then can we add it and provide search engine catalog of the your website.
 
