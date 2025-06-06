@@ -1,0 +1,19 @@
+title: Tarlan Ziyadov
+description: >- # this means to ignore newlines until "baseurl:"
+  I am QA engineer with passion for test automation but as hobby 
+  I develop softwares for test and blog about testing 📒 
+  | SDET | E2E frameworks from scratch 
+  | Integrations to monitor tests | Automated reports to stakeholders slack/teams 
+  | Data driven E2E tests | CI/CD | Kubernetes | k6 io |
+email: tarlan.ziyadov@hotmail.se
+baseurl: ""
+domain: tarlanziyadov.github.io
+url: ""
+linkedin_username: tarlan-z-9096729a
+github_username: TarlanZiyadov
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-livereload
