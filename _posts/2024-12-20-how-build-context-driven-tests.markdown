@@ -2,7 +2,7 @@
 layout: post
 title: "HOW TO BUILD CONTEXT DRIVEN END-TO-END TESTS"
 date: 2024-12-20 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![Build context driven tests](/assets/images/build_context_driven_tests/build_context_driven_tests.jpg)

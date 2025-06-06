@@ -2,7 +2,7 @@
 layout: post
 title: "CYPRESS IO OR SELENIUM WEBDRIVER?"
 date: 2022-01-09 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![Cypress io or selenium](/assets/images/cypress_io_or_selenium/cypress_io_or_selenium.jpg)

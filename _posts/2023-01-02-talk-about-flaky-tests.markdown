@@ -2,7 +2,7 @@
 layout: post
 title: "TIME TO TALK ABOUT FLAKY TESTS"
 date: 2023-01-02 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![Time to talk about flaky tests](/assets/images/time_to_talk_about_flaky_tests/time_to_talk_about_flaky_tests.jpg)

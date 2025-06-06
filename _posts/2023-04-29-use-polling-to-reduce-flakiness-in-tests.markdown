@@ -2,7 +2,7 @@
 layout: post
 title: "USE POLLING TO REDUCE FLAKINESS IN E2E TESTS"
 date: 2023-04-29 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![Use polling to reduce flakiness](/assets/images/use_poling_to_reduce_flakiness/use_poling_to_reduce_flakiness.jpg)

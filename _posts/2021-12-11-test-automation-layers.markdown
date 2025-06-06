@@ -2,7 +2,7 @@
 layout: post
 title: "TEST AUTOMATION LAYERS"
 date: 2021-12-11 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![Test automation layers](/assets/images/test_automation_layers/test_automation_layers.jpg)

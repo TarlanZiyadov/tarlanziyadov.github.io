@@ -2,7 +2,7 @@
 layout: post
 title: "WHAT IS TEST AUTOMATION"
 date: 2020-12-21 23:45:40 +0200
-categories: QA/Test
+categories: QA
 ---
 
 ![What is test automation](/assets/images/what_is_test_automation/what_is_test_automation.jpg)
