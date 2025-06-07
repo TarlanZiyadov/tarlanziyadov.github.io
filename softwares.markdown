@@ -4,13 +4,18 @@ title: Softwares
 permalink: /softwares/
 ---
 
+## 👋 Welcome
+
 Here you will software applications developed by me with direct download links.
 
 ---
 
 ## 1. Helper++
 
-![Helper++](/assets/images/softwares/helper++/helper++.jpg)
+<p align="center">
+<img src="/assets/images/softwares/helper++/helper++.jpg" alt="Helper++" style="width:100%;">
+</p>
+<!-- ![Helper++](/assets/images/softwares/helper++/helper++.jpg) -->
 
 **Helper++** is a lightweight yet powerful text editor designed to keep all your created files in one centralized location. It’s ideal for testers, developers, and anyone who works with multiple file formats.
 
@@ -19,8 +24,6 @@ Here you will software applications developed by me with direct download links.
 - Centralized file storage
 - Multi-filetype support: `.txt`, `.json`, `.rtf`, `.doc`, `.html`, `.js`, `.css`, `.cs`
 - Built-in timer for session-based testing to improve focus
-
----
 
 ### 📦 Software Details:
 
@@ -42,7 +45,9 @@ Here you will software applications developed by me with direct download links.
 
 ## 2. Pingnet
 
-![PingNet](/assets/images/softwares/pingnet/pingnet.jpg)
+<p align="center">
+<img src="/assets/images/softwares/pingnet/pingnet.jpg" alt="Pingnet" style="width:50%;">
+</p>
 
 **PingNet** is a lightweight WebAPI and HOST automation tool. Perfect for testers or developers who want to monitor the availability of services and endpoints with ease.
 
@@ -51,8 +56,6 @@ Here you will software applications developed by me with direct download links.
 - Ping HTTP endpoints manually or on intervals
 - Immediate notification if the HTTP response code is not `200`
 - Clean, minimal interface for easy monitoring
-
----
 
 ### 📦 Software Details:
 
@@ -73,7 +76,9 @@ Here you will software applications developed by me with direct download links.
 
 ## 3. SeleniumByGUI
 
-![SeleniumByGUI](/assets/images/softwares/seleniumbygui/seleniumbygui.jpg)
+<p align="center">
+<img src="/assets/images/softwares/seleniumbygui/seleniumbygui.jpg" alt="SeleniumByGUI" style="width:50%">
+</p>
 
 **SeleniumByGUI** is a powerful automation tool designed for stress-testing input fields using a large set of naughty strings. Built on top of Selenium WebDriver, this tool is ideal for security testing and form validation at scale. A detailed user manual is included within the software to help you get started quickly.
 
@@ -83,8 +88,6 @@ Here you will software applications developed by me with direct download links.
 - Based on Selenium WebDriver
 - GUI interface for easy test execution and monitoring
 - Useful for discovering edge cases and vulnerabilities
-
----
 
 ### 📦 Software Details:
 
@@ -106,7 +109,9 @@ Here you will software applications developed by me with direct download links.
 
 ## 4. Fastcapture
 
-![Fastcapture](/assets/images/softwares/fastcapture/fastcapture.jpg)
+<p align="center">
+<img src="/assets/images/softwares/fastcapture/fastcapture.jpg" alt="Fastcapture" style="width:35%">
+</p>
 
 **Fastcapture** is a lightweight screenshot utility built for testers and developers who need to capture the screen quickly and efficiently — even during intense test sessions. It supports resolutions up to **8K**, ensuring crisp captures every time with minimal setup.
 
@@ -116,8 +121,6 @@ Here you will software applications developed by me with direct download links.
 - Supports up to 8K resolution
 - Extremely lightweight and fast
 - Designed for minimal distractions during test sessions
-
----
 
 ### 📦 Software Details:
 

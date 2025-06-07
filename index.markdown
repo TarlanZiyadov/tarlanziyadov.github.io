@@ -6,7 +6,7 @@ description: "Blog about test, automation och development."
 robots: index, follow
 ---
 
-<img src="/assets/images/index.jpg" alt="Banner" style="width:100%;">
+<img src="/assets/images/banner_articles.jpg" alt="Articles banner" style="width:100%;">
 
 ## 👋 Welcome
 
