@@ -133,6 +133,4 @@ So, if no data is found during those 60 seconds, the test will fail. But if data
 
 The above example is specifically built for [Cypress](https://docs.cypress.io/app/get-started/why-cypress), but with some refactoring it can also be applied to [Selenium](https://www.selenium.dev/) or [Playwright](https://playwright.dev/).
 
-Feel free to experiment with it! I’m always open to feedback — comment below if you think something could be done differently so we can share knowledge and make the world better.
-
-Also, don’t forget to check out my other articles related to testing and test automation.
+Also, feel free to check out my other articles related to testing and test automation.
