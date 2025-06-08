@@ -7,6 +7,31 @@ robots: index, follow
 pagination: true
 ---
 
+<style>
+.button-pagination {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.5em 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button-pagination:hover,
+.button-pagination:focus {
+  background-color: #e0e0e0;
+  color: #000;
+  text-decoration: none;
+}
+</style>
+
 <img src="/assets/images/banner_articles.jpg" alt="Articles banner" style="width:100%;">
 
 <h2>👋 Welcome</h2>
@@ -36,17 +61,13 @@ pagination: true
 <nav class="pagination" role="navigation">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}"
-       style="background-color: #f7f7f7; color: #333; padding: 0.5em 1em; 
-       border-radius: 6px; text-decoration: none; border: 1px solid #ddd; font-weight: 500; 
-       flex: 1 1 auto; text-align: center;">
+       class="button-pagination">
       ← Previous
     </a>
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | relative_url }}"
-       style="background-color: #f7f7f7; color: #333; padding: 0.5em 1em; 
-       border-radius: 6px; text-decoration: none; border: 1px solid #ddd; font-weight: 500; 
-       flex: 1 1 auto; text-align: center;">
+      class="button-pagination">
       Next →
     </a>
   {% endif %}

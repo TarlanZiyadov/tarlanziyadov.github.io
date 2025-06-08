@@ -5,12 +5,33 @@ date: 2023-04-29 23:45:40 +0200
 categories: QA
 ---
 
+<style>
+.button-back {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 0.3em 0.7em;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0.8em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-back:hover,
+.button-back:focus {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+</style>
+
 <a href="{{ site.baseurl }}/"
 onclick="window.history.back(); return false;"
-style="background-color: #f7f7f7; color: #333; padding: 0.3em 0.7em; 
-    border-radius: 4px; text-decoration: none; border: 1px solid #ddd; 
-    font-weight: 500; flex: 1 1 auto; text-align: center; margin-bottom: 0.8em;
-    display: inline-block;">
+class="button-back">
 <span style="font-size: 0.9rem;">←</span> Back </a>
 
 ![Use polling to reduce flakiness](/assets/images/articles/use_poling_to_reduce_flakiness/use_poling_to_reduce_flakiness.jpg)
