@@ -5,6 +5,14 @@ date: 2021-12-11 23:45:40 +0200
 categories: QA
 ---
 
+<a href="{{ site.baseurl }}/"
+onclick="window.history.back(); return false;"
+style="background-color: #f7f7f7; color: #333; padding: 0.3em 0.7em; 
+    border-radius: 4px; text-decoration: none; border: 1px solid #ddd; 
+    font-weight: 500; flex: 1 1 auto; text-align: center; margin-bottom: 0.8em;
+    display: inline-block;">
+<span style="font-size: 0.9rem;">←</span> Back </a>
+
 ![Test automation layers](/assets/images/articles/test_automation_layers/test_automation_layers.jpg)
 
 > Automation of tests can be very helpful **only if** you choose the right implementation techniques **and** the right tools.

@@ -5,6 +5,14 @@ date: 2023-01-02 23:45:40 +0200
 categories: QA
 ---
 
+<a href="{{ site.baseurl }}/"
+onclick="window.history.back(); return false;"
+style="background-color: #f7f7f7; color: #333; padding: 0.3em 0.7em; 
+    border-radius: 4px; text-decoration: none; border: 1px solid #ddd; 
+    font-weight: 500; flex: 1 1 auto; text-align: center; margin-bottom: 0.8em;
+    display: inline-block;">
+<span style="font-size: 0.9rem;">←</span> Back </a>
+
 ![Time to talk about flaky tests](/assets/images/articles/time_to_talk_about_flaky_tests/time_to_talk_about_flaky_tests.jpg)
 
 ## **What is a Flaky Test?**
