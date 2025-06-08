@@ -13,3 +13,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-livereload
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/posts/page:num"
+
+header_pages:
+  - index.html
+  - softwares.markdown
+  - about.markdown

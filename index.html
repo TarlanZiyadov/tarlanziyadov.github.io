@@ -1,0 +1,53 @@
+---
+layout: default
+title: "Articles"
+author: Tarlan Ziyadov
+description: "Blog about test, automation och development."
+robots: index, follow
+pagination: true
+---
+
+<img src="/assets/images/banner_articles.jpg" alt="Articles banner" style="width:100%;">
+
+<h2>👋 Welcome</h2>
+
+<p>
+  Here you will find posts about <strong>Tech</strong> and <strong>Development</strong>,<br>
+  including topics on <strong>QA (Quality Assurance)</strong>, tools, tips, and best practices.
+</p>
+
+<p>Stay curious and keep learning!</p>
+
+<h2>Posts</h2>
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+    </li>
+  {% endfor %}
+</ul>
+
+<nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}"
+       style="background-color: #f7f7f7; color: #333; padding: 0.5em 1em; 
+       border-radius: 6px; text-decoration: none; border: 1px solid #ddd; font-weight: 500; 
+       flex: 1 1 auto; text-align: center;">
+      ← Previous
+    </a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}"
+       style="background-color: #f7f7f7; color: #333; padding: 0.5em 1em; 
+       border-radius: 6px; text-decoration: none; border: 1px solid #ddd; font-weight: 500; 
+       flex: 1 1 auto; text-align: center;">
+      Next →
+    </a>
+  {% endif %}
+</nav>

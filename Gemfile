@@ -5,6 +5,7 @@ gem "jekyll-livereload"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem 'racc', '~> 1.8.1'
 gem 'faraday-retry'
+gem "jekyll-paginate-v2"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
