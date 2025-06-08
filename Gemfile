@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem "minima", "~> 2.5"
 gem "jekyll-livereload"
 gem "github-pages", "~> 232", group: :jekyll_plugins
+gem 'racc', '~> 1.8.1'
+gem 'faraday-retry'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

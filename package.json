@@ -1,5 +1,5 @@
 {
-  "name": "my-jekyll-site",
+  "name": "tarlan-ziyadov-website",
   "version": "1.0.0",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload --port 3000 --open-url"
