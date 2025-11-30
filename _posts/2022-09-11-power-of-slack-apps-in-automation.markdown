@@ -40,7 +40,7 @@ class="button-back">
 
 Let’s start with the concept of Slack. Slack is a great messenger for developers, and recently they implemented a new feature called **Huddle**. Huddle enables collaboration with developers without the need to be physically side by side.
 
-On the other hand, channels themselves are great — they feel like a space where you can share information with the team as well as have simple chats.
+On the other hand, channels themselves are great they feel like a space where you can share information with the team as well as have simple chats.
 
 Slack also allows editing channels, for example by adding **Incoming Webhooks**.
 
@@ -56,7 +56,7 @@ Messages sent via this feature are quite basic, with only a few options for cust
 
 However, this feature has unfortunately been deprecated, which means Slack could remove it at any time.
 
-Therefore, I recommend checking if you are using Incoming WebHooks — it might be time to make some changes and start using **Slack apps** instead.
+Therefore, I recommend checking if you are using Incoming WebHooks it might be time to make some changes and start using **Slack apps** instead.
 
 Now, here come the new great Slack apps!
 
@@ -67,7 +67,7 @@ Now, here come the new great Slack apps!
 Since **Incoming WebHooks** are deprecated, Slack introduced a new feature called **Slack Apps**.  
 (Read more on the [official Slack website](https://api.slack.com/apps).)
 
-With Slack Apps, you get full control over notifications—not only the payload itself but also the interactivity with them. The concept is similar to Incoming WebHooks but with much more flexibility:
+With Slack Apps, you get full control over notifications not only the payload itself but also the interactivity with them. The concept is similar to Incoming WebHooks but with much more flexibility:
 
 - You can customize the payload extensively.
 - You can allow users to interact with notifications by providing options.
@@ -87,8 +87,8 @@ Beside interacting with, for example, a pipeline, you can also send a response b
 
 In the payload received from Slack, you will find important information such as:
 
-- `channel.id` — the ID of the channel where the interaction happened
-- `message.ts` — the timestamp of the original message
+- `channel.id` the ID of the channel where the interaction happened
+- `message.ts` the timestamp of the original message
 
 These are essential if you want to **post a new message** or **update the original notification**.
 
@@ -124,7 +124,7 @@ Basic json block with link button in it:
 
 ## **Back-end Service**
 
-To enable interaction with Slack notifications, you need to build an **API service**—or add an additional endpoint to an existing service—that can receive requests from Slack.
+To enable interaction with Slack notifications, you need to build an **API service** or add an additional endpoint to an existing service that can receive requests from Slack.
 
 There’s nothing fancy required here. A **basic API** will work just fine. The main responsibilities of this service include:
 
@@ -148,7 +148,7 @@ Using a clean structure in your backend logic will make your code easier to scal
 
 ## **Postman as Mock Server**
 
-Unfortunately, you can't directly test Slack's incoming requests to a **localhost** URL. Slack requires a publicly accessible HTTPS endpoint for sending interaction payloads—so local development is a bit tricky.
+Unfortunately, you can't directly test Slack's incoming requests to a **localhost** URL. Slack requires a publicly accessible HTTPS endpoint for sending interaction payloads so local development is a bit tricky.
 
 But there's a solution: **Postman Mock Server**.
 
@@ -184,7 +184,7 @@ Since Slack apps is an app in the slack therefore you can give it a name as well
 
 We’ve reached the final part of this article. Now that you understand how **Slack Apps** work, let’s explore how to use them in the context of **test automation**.
 
-With Slack apps, you can send interactive notifications **directly from your automated test runs** to a Slack channel—and let your team members interact with them in real time.
+With Slack apps, you can send interactive notifications **directly from your automated test runs** to a Slack channel and let your team members interact with them in real time.
 
 ### Common Use Cases:
 

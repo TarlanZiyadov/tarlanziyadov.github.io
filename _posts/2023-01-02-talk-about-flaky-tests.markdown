@@ -48,9 +48,9 @@ After this, you push your code to the repository and let your tests run daily or
 
 The next day you come back and see that the test case you built yesterday has failed. You investigate whether there is a new bug in the core app. If you have logs related to the core app, it’s important to check them because there might be a bug that occurs only under certain circumstances.
 
-Let’s say you don’t find any new bugs. Then you investigate if there were any new changes in the core app—again, nothing new.
+Let’s say you don’t find any new bugs. Then you investigate if there were any new changes in the core app again, nothing new.
 
-You then run your tests locally and your build passes successfully. You decide to run the test two more times to see if it’s flaky, and boom — one of the three runs fails.
+You then run your tests locally and your build passes successfully. You decide to run the test two more times to see if it’s flaky, and boom one of the three runs fails.
 
 You check the test result and, depending on the framework, you get an error message. For example, your script couldn’t find an element in the DOM. You check the element and it’s the same element as yesterday.
 
@@ -72,7 +72,7 @@ For example, you open the landing page and the "Welcome" text appears only after
 
 ### Scroll Issue
 
-For example, you open the landing page and wait for the "Welcome" text, but the text is in the page footer — out of view for the automation tool. You need to scroll to the element before asserting on it.
+For example, you open the landing page and wait for the "Welcome" text, but the text is in the page footer out of view for the automation tool. You need to scroll to the element before asserting on it.
 
 ### Cookie Issue
 
@@ -117,7 +117,7 @@ So, subscribe and turn on notifications so you don’t miss it!
 
 Flaky tests are never fun and can become a headache for developers. They can take time to understand and also time to properly solve.
 
-If you find a test to be flaky, put it into quarantine — meaning remove it from the main test pipeline so your tests don’t fail because of it. Take your time to fix it in a development pipeline so your teammates can trust your automation.
+If you find a test to be flaky, put it into quarantine meaning remove it from the main test pipeline so your tests don’t fail because of it. Take your time to fix it in a development pipeline so your teammates can trust your automation.
 
 This way, your automation remains trusted and does not give false results based on the state of the core app.
 

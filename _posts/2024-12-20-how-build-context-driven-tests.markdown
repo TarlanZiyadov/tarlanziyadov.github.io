@@ -40,11 +40,11 @@ class="button-back">
 
 In this short article I will show you how to implement contexts to the end-to-end tests so you can save time, make adjustment fast and easy as well be able to run tests parallel. Examples shown will be simple but with the logic can be applied to the more complex tests.
 
-First, what is context driven testing? It is simple — given different context, test the end result. So our end-to-end tests need to be able to take context and based on the context run tests. These tests will have mostly one way flow and only context will be different.
+First, what is context driven testing? It is simple given different context, test the end result. So our end-to-end tests need to be able to take context and based on the context run tests. These tests will have mostly one way flow and only context will be different.
 
 So imagine you have 10 different contexts, e.g. 10 different item cards with the same code structure and flow in the webpage but different content in it. This might even include different event verification for each of the cards.
 
-So to test all 10 cases you might want to create multiple tests but wait — why repeat the same code 10 times? It will become unmaintainable by time and every change will make you stop doing what you like much — building regression tests. So therefore we will implement contexts to our tests.
+So to test all 10 cases you might want to create multiple tests but wait why repeat the same code 10 times? It will become unmaintainable by time and every change will make you stop doing what you like much building regression tests. So therefore we will implement contexts to our tests.
 
 We can as well run our contexts parallel with [cypress-parallel](https://www.npmjs.com/package/cypress-parallel).
 

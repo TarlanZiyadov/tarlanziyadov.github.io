@@ -148,7 +148,7 @@ it(
 
 ---
 
-Finally, some magic — you avoided implicit waits and have explicit waits instead. By doing this, your team can even improve the time for data generation based on the report you provide them.
+Finally, some magic you avoided implicit waits and have explicit waits instead. By doing this, your team can even improve the time for data generation based on the report you provide them.
 
 Don’t forget that Cypress has a default timeout for tests of 60 seconds, which can be changed in the config.
 

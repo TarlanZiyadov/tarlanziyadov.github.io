@@ -113,7 +113,7 @@ Here you will software applications developed by me with direct download links.
 <img src="/assets/images/softwares/fastcapture/fastcapture.jpg" alt="Fastcapture" style="width:35%">
 </p>
 
-**Fastcapture** is a lightweight screenshot utility built for testers and developers who need to capture the screen quickly and efficiently — even during intense test sessions. It supports resolutions up to **8K**, ensuring crisp captures every time with minimal setup.
+**Fastcapture** is a lightweight screenshot utility built for testers and developers who need to capture the screen quickly and efficiently even during intense test sessions. It supports resolutions up to **8K**, ensuring crisp captures every time with minimal setup.
 
 ### ⚡ Key Features:
 

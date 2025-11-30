@@ -90,13 +90,13 @@ This way, users can find your blog post on Google.
 
 ## **Automatic Generation of the Sitemap**
 
-Well, generating a sitemap manually is very easy, but how about automatic generation of the sitemap? This part is very important if your website has dynamically generated content — meaning that users can log in and share content.
+Well, generating a sitemap manually is very easy, but how about automatic generation of the sitemap? This part is very important if your website has dynamically generated content meaning that users can log in and share content.
 
 Creating a sitemap manually then becomes very tricky, since you have to go through all the content shared on the website and add it to the XML file. This is a huge amount of work if your website content changes daily.
 
 To skip the manual part, you will need to build an endpoint in your back-end service and provide it to the search engine through your client-side application. _(I will explain later why you should not provide the endpoint directly to the search engine.)_
 
-In the back-end, you can go through the shared content in your application and parse it into an XML file. Most content is often saved in a database, so extract it from the database and parse it — for example with `js2xmlparser` for Node.js — and save it as an XML file.
+In the back-end, you can go through the shared content in your application and parse it into an XML file. Most content is often saved in a database, so extract it from the database and parse it for example with `js2xmlparser` for Node.js and save it as an XML file.
 
 ---
 

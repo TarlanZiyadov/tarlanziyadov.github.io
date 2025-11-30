@@ -8,7 +8,7 @@ permalink: /about/
 
 **QA Engineer** specializing in **test automation** with a strong passion for building custom tools and sharing insights through technical blogging.
 
-Active in the tech industry since 2018 — started with programming and built my first console application that same year, sparking a long-term commitment to software quality and development.
+Active in the tech industry since 2018 started with programming and built my first console application that same year, sparking a long-term commitment to software quality and development.
 
 ---
 

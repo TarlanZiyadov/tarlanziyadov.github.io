@@ -41,22 +41,22 @@ class="button-back">
 You may read about _QA_, _Tester_, _Test Engineer_ and so on.  
 Those persons may test software or hardware depending on how the product looks or feels like.
 
-But it's not necessarily a product you must interact with —  
-perhaps asking a question may be a part of testing in order to verify your thoughts or requirements —  
+But it's not necessarily a product you must interact with  
+perhaps asking a question may be a part of testing in order to verify your thoughts or requirements  
 that the product may have implemented or not.
 
-In some cases it **will** be implemented in further development — it depends on the situation.
+In some cases it **will** be implemented in further development it depends on the situation.
 
 ---
 
-Testing can be **subjective** — every tester might think, feel, and understand differently as a human being.
+Testing can be **subjective** every tester might think, feel, and understand differently as a human being.
 
 You may have heard or read about **Test Automation Engineer**, or **automated testing**, and so on.  
 You can find many different names for different testing roles.
 
 ---
 
-As I tried to explain briefly — I mean _very_ briefly —  
+As I tried to explain briefly I mean _very_ briefly  
 testing is a huge field in IT, and many books have been written about it.
 
 So I recommend reading some of them to at least understand:
@@ -78,17 +78,17 @@ But as a **Test Automation Engineer**, you **know the answer** before you ask th
 ---
 
 Sounds weird, right?  
-Because you want to get the answer you already know — you know which question to ask.
+Because you want to get the answer you already know you know which question to ask.
 
 The difference is: as a Test Automation Engineer, you're questioning a **product**, not a **human being**.  
-A product that doesn't talk the language we use — it only understands programming languages.
+A product that doesn't talk the language we use it only understands programming languages.
 
 ---
 
-Since you know the answers, it's not a question anymore — it's **checking**.
+Since you know the answers, it's not a question anymore it's **checking**.
 
 When you already know the answer, why ask a product that can't think like a human?  
-You can save time and act instead — by checking the answers.
+You can save time and act instead by checking the answers.
 
 Automating the answers by checking them is what we call **Test Automation**.
 
@@ -120,10 +120,10 @@ even when there are 1,000 other answers added later.
 
 ---
 
-Since this blog is about **Test Automation** — not technical testing —  
+Since this blog is about **Test Automation** not technical testing  
 I'll explain how to get started with automation in the **next blog**.
 
 ---
 
 Of course, these are just **my personal thoughts**,  
-and they may not be the same as yours — or how you see Test Automation.
+and they may not be the same as yours or how you see Test Automation.

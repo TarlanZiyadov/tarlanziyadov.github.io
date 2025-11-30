@@ -138,7 +138,7 @@ If everything is passing without error then **Save and Exit**.
 
 ---
 
-It’s okay if you get some warnings (yellow-colored notifications) in the console. You can choose to add more information or skip them—it’s up to you.
+It’s okay if you get some warnings (yellow-colored notifications) in the console. You can choose to add more information or skip them it’s up to you.
 
 Last but not least, it’s time to publish. Choose the validated app from the list and click **Publish**.
 
