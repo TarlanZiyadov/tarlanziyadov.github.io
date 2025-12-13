@@ -22,3 +22,9 @@ Active in the tech industry since 2018 started with programming and built my fir
 - 🧪 Implementing **data-driven testing strategies**
 - 🔧 Skilled in **CI/CD pipelines**, **Kubernetes**, and **performance testing with k6**
 - 🛠️ Developing custom utility softwares to support and accelerate testing workflows
+
+## 🏗️ Cypress E2E Demo Project
+
+📦 Repository: [GitHub](https://github.com/tarlanziyadov/cypress_e2e_tarlanziyadov)  
+⚙️ CI/CD: GitHub Actions  
+📊 Reports: Mochawesome
