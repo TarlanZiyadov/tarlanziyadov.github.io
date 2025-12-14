@@ -17,10 +17,15 @@ Active in the tech industry since 2018 started with programming and built my fir
 ## 🔧 Expertise
 
 - 🧩 Experienced in designing **E2E automation frameworks** from scratch
+
 - 🔍 Integrating **monitoring solutions** to track test health and trends
+
 - 📤 Automating test reports for stakeholders via **Slack** and **Microsoft Teams**
+
 - 🧪 Implementing **data-driven testing strategies**
+
 - 🔧 Skilled in **CI/CD pipelines**, **Kubernetes**, and **performance testing with k6**
+
 - 🛠️ Developing custom utility softwares to support and accelerate testing workflows
 
 ## 🏗️ Cypress E2E Demo Project
