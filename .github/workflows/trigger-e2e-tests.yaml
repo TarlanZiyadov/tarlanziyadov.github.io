@@ -1,9 +1,10 @@
 name: Trigger Cypress E2E Tests
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
 
 jobs:
   trigger-cypress:
