@@ -1,0 +1,18 @@
+name: Trigger Cypress E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send repository_dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.CYPRESS_E2E_TARLANZIYADOV_TOKEN }}
+          repository: TarlanZiyadov/Cypress_e2e_TarlanZiyadov
+          event-type: run-cypress
+          client-payload: '{"ref":"main"}'
