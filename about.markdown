@@ -26,5 +26,5 @@ Active in the tech industry since 2018 started with programming and built my fir
 ## 🏗️ Cypress E2E Demo Project
 
 📦 Repository: [GitHub](https://github.com/tarlanziyadov/cypress_e2e_tarlanziyadov)  
-⚙️ CI/CD: GitHub Actions  
+⚙️ CI/CD: [GitHub Actions](https://github.com/TarlanZiyadov/Cypress_e2e_TarlanZiyadov/blob/76a8e46f3318515c3603c7788df1f06cd2859a54/.github/workflows/cypress-run.yaml)
 📊 Reports: [Mochawesome](https://tarlanziyadov.github.io/Cypress_e2e_TarlanZiyadov_Report/report.html)
